@@ -24,7 +24,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <button id="test-button">Click Me to Test Tracking!</button>
   
   <form id="test-form">
-    <input type="text" placeholder="Your name" />
+    <label>Your Name:</label>
+    <input type="text" id="user-name" name="name" placeholder="Enter your name" required />
+    
+    <label>Your Email:</label>
+    <input type="email" id="user-email" name="email" placeholder="Enter your email" required />
+    
     <button type="submit">Submit Form</button>
   </form>
   
